@@ -1,0 +1,186 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 22, 2016, 11:26:01 PM
+    Author     : Administrator
+*/
+
+body {
+  background-image: url("../img/giangsing.jpg");
+  background-size: 100%;
+  background-repeat: repeat-y;
+  font-family: "Fredoka One", cursive;
+  color: white;
+
+}
+
+.img_banner_hpbd {
+  background-image: url("../img/bia.jpg");
+  background-repeat: cover;
+  background-position: left center;
+  background-size: auto;
+}
+
+h1.heading {
+  font-family: "Pacifico", cursive;
+}
+
+.jumbotron {
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */
+}
+
+h4 {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.bg-snow-tranparent-normal {
+  opacity: 1;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */
+}
+
+.bg-snow-tranparent-hidden {
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */
+}
+
+.img {
+  background-image: url("../img/thiep.png");
+  background-size: contain;
+
+
+}
+
+.footer {
+
+  height: 180px;
+  font-size: 20px;
+  background-color: rgba(149, 116, 116, 0.437);
+  color: skyblue;
+
+  /* opacity: 0.5; */
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */
+}
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+  z-index: 1;
+}
+.containeri {
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.top-right {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  color: #728e98;
+  font-size: 90%;
+}
+
+.top-left {
+  position: absolute;
+  top: 132px;
+  right: 29px;
+  color: #6c7c6b;
+  font-size: 80%;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hold {
+  cursor: pointer;
+  transition: 1s ease all;
+}
+
+.hold::placeholder {
+  transform: scale(1.3);
+
+}
+
+.center {
+  position: absolute;
+  bottom: 115px;
+  left: 250px;
+  color: #6c7c6b;
+  font-size: 80%;
+}
+
+.and {
+  position: absolute;
+  bottom: 160px;
+  left: 240px;
+  color: #6c7c6b;
+  font-size: 80%;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 253px;
+  right: 20px;
+  color: #6c7c6b;
+  font-size: 80%;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 5px;
+  left: 270px;
+  color: #b78690;
+}
+
+.memory {
+  background-image: url("../img/memory.png");
+  background-size: contain;
+}
+
+.img2 {
+  background-image: url("../img/mt6.jpg");
+  background-size: contain;
+}
+
+.img3 {
+  background-image: url("../img/mt7.jpg");
+  background-size: contain;
+}
+
+.img4 {
+  background-image: url("../img/mt15.jpg");
+  background-size: contain;
+}
+
+.img5 {
+  background-image: url("../img/cute.png");
+  background-size: contain;
+}
+
+.img6 {
+  background-image: url("../img/mt17.jpg");
+  background-size: contain;
+}
+.img7{
+  background-image: url("../img/lich.png");
+    background-size: contain;
+}
+
+.click{
+  font-size: 10px;
+  top:-20px
+}
